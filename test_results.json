@@ -1,0 +1,248 @@
+{
+  "Large Cap Success Stories": {
+    "test_name": "Large Cap Success Stories",
+    "status": "PASS",
+    "errors": [],
+    "basic_report": {
+      "total_companies": 5,
+      "total_revenue": "1483000000000",
+      "total_expenses": "1205000000000",
+      "total_net_income": "278000000000",
+      "average_revenue": 296600000000.0,
+      "average_expenses": 241000000000.0,
+      "average_net_income": 55600000000.0,
+      "revenue_std": 159686568001.19415,
+      "profit_margin_avg": 19.58325119121516,
+      "expense_ratio_avg": 80.41674880878486,
+      "total_market_cap": "9800000000000",
+      "average_market_cap": 1960000000000.0,
+      "market_cap_std": 923579991121.5054
+    },
+    "company_insights": 5,
+    "sector_analysis": 3,
+    "risk_assessment": {
+      "high_debt_companies": 2,
+      "low_profit_margin_companies": 0,
+      "average_volatility": 0.7150752436620225,
+      "companies_at_risk": [
+        "Amazon.com Inc",
+        "Tesla Inc"
+      ]
+    },
+    "top_performers": 3,
+    "basic_summary_length": 532,
+    "validation": [
+      {
+        "test": "Revenue Calculation",
+        "passed": "True",
+        "message": "Expected: $1,483,000,000,000, Got: $1,483,000,000,000"
+      },
+      {
+        "test": "Net Income Calculation",
+        "passed": "True",
+        "message": "Expected: $278,000,000,000, Got: $278,000,000,000"
+      },
+      {
+        "test": "Company Count",
+        "passed": true,
+        "message": "Expected: 5, Got: 5"
+      },
+      {
+        "test": "Numeric Data Types",
+        "passed": true,
+        "message": "All financial columns are numeric"
+      },
+      {
+        "test": "Missing Critical Data",
+        "passed": "True",
+        "message": "No missing data"
+      }
+    ]
+  },
+  "Mixed Performance Companies": {
+    "test_name": "Mixed Performance Companies",
+    "status": "PASS",
+    "errors": [],
+    "basic_report": {
+      "total_companies": 5,
+      "total_revenue": "275000000000",
+      "total_expenses": "285000000000",
+      "total_net_income": "-10000000000",
+      "average_revenue": 55000000000.0,
+      "average_expenses": 57000000000.0,
+      "average_net_income": -2000000000.0,
+      "revenue_std": 48145612468.84289,
+      "profit_margin_avg": -15.863513613069111,
+      "expense_ratio_avg": 115.86351361306913,
+      "total_market_cap": "445000000000",
+      "average_market_cap": 89000000000.0,
+      "market_cap_std": 65612498809.297
+    },
+    "company_insights": 5,
+    "sector_analysis": 5,
+    "risk_assessment": {
+      "high_debt_companies": 5,
+      "low_profit_margin_companies": 4,
+      "average_volatility": 0.7763959670647564,
+      "companies_at_risk": [
+        "Boeing Co",
+        "General Motors",
+        "Netflix Inc",
+        "Uber Technologies",
+        "WeWork Inc"
+      ]
+    },
+    "top_performers": 3,
+    "basic_summary_length": 523,
+    "validation": [
+      {
+        "test": "Revenue Calculation",
+        "passed": "True",
+        "message": "Expected: $275,000,000,000, Got: $275,000,000,000"
+      },
+      {
+        "test": "Net Income Calculation",
+        "passed": "True",
+        "message": "Expected: $-10,000,000,000, Got: $-10,000,000,000"
+      },
+      {
+        "test": "Company Count",
+        "passed": true,
+        "message": "Expected: 5, Got: 5"
+      },
+      {
+        "test": "Numeric Data Types",
+        "passed": true,
+        "message": "All financial columns are numeric"
+      },
+      {
+        "test": "Missing Critical Data",
+        "passed": "True",
+        "message": "No missing data"
+      }
+    ]
+  },
+  "Small Cap High Growth": {
+    "test_name": "Small Cap High Growth",
+    "status": "PASS",
+    "errors": [],
+    "basic_report": {
+      "total_companies": 5,
+      "total_revenue": "14500000000",
+      "total_expenses": "10700000000",
+      "total_net_income": "3800000000",
+      "average_revenue": 2900000000.0,
+      "average_expenses": 2140000000.0,
+      "average_net_income": 760000000.0,
+      "revenue_std": 966953980.2906858,
+      "profit_margin_avg": 25.01394901394901,
+      "expense_ratio_avg": 74.98605098605098,
+      "total_market_cap": "188000000000",
+      "average_market_cap": 37600000000.0,
+      "market_cap_std": 12401612798.341997
+    },
+    "company_insights": 5,
+    "sector_analysis": 2,
+    "risk_assessment": {
+      "high_debt_companies": 2,
+      "low_profit_margin_companies": 0,
+      "average_volatility": 0.8301061577797484,
+      "companies_at_risk": [
+        "Palantir Technologies",
+        "Snowflake Inc"
+      ]
+    },
+    "top_performers": 3,
+    "basic_summary_length": 521,
+    "validation": [
+      {
+        "test": "Revenue Calculation",
+        "passed": "True",
+        "message": "Expected: $14,500,000,000, Got: $14,500,000,000"
+      },
+      {
+        "test": "Net Income Calculation",
+        "passed": "True",
+        "message": "Expected: $3,800,000,000, Got: $3,800,000,000"
+      },
+      {
+        "test": "Company Count",
+        "passed": true,
+        "message": "Expected: 5, Got: 5"
+      },
+      {
+        "test": "Numeric Data Types",
+        "passed": true,
+        "message": "All financial columns are numeric"
+      },
+      {
+        "test": "Missing Critical Data",
+        "passed": "True",
+        "message": "No missing data"
+      }
+    ]
+  },
+  "Crisis Scenario Companies": {
+    "test_name": "Crisis Scenario Companies",
+    "status": "PASS",
+    "errors": [],
+    "basic_report": {
+      "total_companies": 5,
+      "total_revenue": "27400000000",
+      "total_expenses": "34400000000",
+      "total_net_income": "-7000000000",
+      "average_revenue": 5480000000.0,
+      "average_expenses": 6880000000.0,
+      "average_net_income": -1400000000.0,
+      "revenue_std": 2805708466.680029,
+      "profit_margin_avg": -43.847979488575774,
+      "expense_ratio_avg": 143.84797948857576,
+      "total_market_cap": "21800000000",
+      "average_market_cap": 4360000000.0,
+      "market_cap_std": 5353783708.742818
+    },
+    "company_insights": 5,
+    "sector_analysis": 3,
+    "risk_assessment": {
+      "high_debt_companies": 5,
+      "low_profit_margin_companies": 5,
+      "average_volatility": 0.6892398322730287,
+      "companies_at_risk": [
+        "Bed Bath & Beyond",
+        "Hertz Global",
+        "AMC Entertainment",
+        "GameStop Corp",
+        "Blockbuster LLC"
+      ]
+    },
+    "top_performers": 3,
+    "basic_summary_length": 520,
+    "validation": [
+      {
+        "test": "Revenue Calculation",
+        "passed": "True",
+        "message": "Expected: $27,400,000,000, Got: $27,400,000,000"
+      },
+      {
+        "test": "Net Income Calculation",
+        "passed": "True",
+        "message": "Expected: $-7,000,000,000, Got: $-7,000,000,000"
+      },
+      {
+        "test": "Company Count",
+        "passed": true,
+        "message": "Expected: 5, Got: 5"
+      },
+      {
+        "test": "Numeric Data Types",
+        "passed": true,
+        "message": "All financial columns are numeric"
+      },
+      {
+        "test": "Missing Critical Data",
+        "passed": "True",
+        "message": "No missing data"
+      }
+    ]
+  }
+}

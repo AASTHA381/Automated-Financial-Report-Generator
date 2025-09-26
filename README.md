@@ -34,8 +34,6 @@ A comprehensive financial analysis and reporting system that generates automated
 
 ```
 prj/
-├── .github/
-│   └── copilot-instructions.md    # Project setup instructions
 ├── data/
 │   └── sample_edgar.csv           # Sample SEC filings data
 ├── app.py                         # Main Streamlit application
@@ -147,6 +145,13 @@ python test_examples.py --test-gpt
 - Investment recommendations (with GPT-4)
 
 ## 🎮 How to Use
+
+<img width="3795" height="1599" alt="image" src="https://github.com/user-attachments/assets/52a2c9e4-201f-4c4d-b52e-6979ea5b9c5e" />
+<img width="3102" height="1638" alt="image" src="https://github.com/user-attachments/assets/246763d1-08a9-4355-a24c-6ad8b793a984" />
+<img width="3087" height="1626" alt="image" src="https://github.com/user-attachments/assets/694c3ae1-76fa-4ebd-9b7d-21726dbb1839" />
+<img width="3084" height="1569" alt="image" src="https://github.com/user-attachments/assets/8676450d-617f-446d-82d0-3764a965fb0f" />
+<img width="3078" height="1602" alt="image" src="https://github.com/user-attachments/assets/73b54fed-c96f-4b4c-b796-46e77f981069" />
+
 
 ### Step 1: Data Upload
 1. Open the application in your browser
@@ -287,5 +292,6 @@ For questions, issues, or feature requests:
 ---
 
 **🎯 Success Metrics**: This system typically reduces financial reporting time from hours to minutes while providing deeper insights through AI-powered analysis.
+
 
 **🚀 Ready to Start**: Follow the Quick Start guide above to begin generating automated financial reports in minutes!
